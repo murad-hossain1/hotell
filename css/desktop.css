@@ -1,0 +1,15 @@
+header::before {
+    min-height: 115vh;
+}
+
+.toggler_color{
+    color: white;
+}
+
+.site-nav{
+    display: none;
+}
+
+.about_text{
+    padding-top: 100px;
+}
