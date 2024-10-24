@@ -10,18 +10,14 @@
     <title>Hotell</title>
     <!-- bootstrap css link below  -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- animation css link below  -->
+    <link rel="stylesheet" href="../css/animate.css">
     <!-- aos css link  -->
     <link rel="stylesheet" href="../css/aos.css">
     <!-- tns css link -->
     <link rel="stylesheet" href="../css/tns.css">
     <!-- main css link below -->
     <link rel="stylesheet" href="../style.css">
-    <!-- desktop css link below -->
-    <link rel="stylesheet" href="../css/mobile.css" media="screen and (max-width: 600px)">
-    <!-- tablet css link below -->
-    <link rel="stylesheet" href="../css/tablet.css" media="screen and (max-width: 768px)">
-    <!-- mobile css link below -->
-    <link rel="stylesheet" href="../css/desktop.css" media="screen and (max-width: 992px)">
     <!-- font awesome cdn link below -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
@@ -45,7 +41,7 @@
                       <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown actives">
-                      <a class="nav-link dropdown-toggle" href="../html/destination.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <a class="nav-link dropdown-toggle" href="destination.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Destination
                       </a>
                       <ul class="dropdown-menu">
@@ -55,19 +51,19 @@
                       </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../html/service.html">Services</a>
+                        <a class="nav-link" href="service.html">Services</a>
                       </li><li class="nav-item">
-                        <a class="nav-link" href="../html/about.html">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="../html/contact.html">Content</a>
+                        <a class="nav-link" href="contact.html">Content</a>
                       </li>
                   </ul>
                   
                 </div>
               </div>
             </div>
-          </nav>
+        </nav>
 
         <!-- site navbar start  -->
         <nav class="site-nav">
@@ -82,7 +78,7 @@
                                 <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
                                     <li><a href="../index.html">Home</a></li>
                                     <li class="has-children dropdown active">
-                                        <a href="../html/destination.html">Destination</a>
+                                        <a href="destination.html">Destination</a>
                                         <ul class="dropdown">
                                             <li><a href="#">Menu One</a></li>
                                             <li><a href="#">Menu Two</a></li>
@@ -96,9 +92,9 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="../html/service.html">Services</a></li>
-                                    <li><a href="../html/about.html">About</a></li>
-                                    <li><a href="../html/contact.html">Contact</a></li>
+                                    <li><a href="service.html">Services</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </div>
                             
@@ -397,7 +393,6 @@
                         </div> <!-- /.widget -->
                     </div> <!-- /.col-lg-3 -->
     
-    
                     <div class="col-6 col-sm-6 col-md-6 col-lg-3">
                         <div class="widget footer_style">
                             <h6>Contact</h6>
@@ -421,7 +416,6 @@
                         </div> <!-- /.widget -->
                     </div> <!-- /.col-lg-3 -->
                 </div> <!-- /.row -->
-    
 
         <div class="footer_bottom py-5 text-center">
             <p class="footer_bottom-text">Copyright &copy;2024 All rights reserved | This template is made with <span><i class="fa-solid fa-heart"></i></span> by <a href="#">Colorlib</a></p>
@@ -431,12 +425,6 @@
     </footer>
     <!-- aos java script link  -->
     <script src="../js/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 200,
-            duration: 2000,
-        });
-    </script>
     <!-- bootstrap java script link  -->
     <script src="../js/bootstrap.bundle.min.js"></script>
     <!-- tns java script link -->
@@ -461,6 +449,9 @@
         "items": 2,
         },
     "400": {
+        "items": 1,
+        },
+    "340": {
         "items": 1,
         },
     },
