@@ -1,5 +1,5 @@
 var slider = tns({
-    container: '.feature_item',
+    container: '#feature_item',
     items: 3,
     nav: false,
     mouseDrag: true,
