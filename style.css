@@ -375,6 +375,22 @@ html{
     font-size: 14px;
     padding-left: 60px; 
 }
+
+@media (max-width: 992px){
+    .site-nav{
+        display: none;
+    }
+    .toggler_color{
+        color: white;
+    }
+}
+
+@media (max-width: 768px){
+    .site-nav{
+        display: none;
+    }
+}
+
 .burger span i{
     color: white;
 }
@@ -485,6 +501,12 @@ html{
     padding: 15px 25px;
     font-size: 1.2rem;
     border-radius: 30px;
+}
+
+@media (max-width: 992px){
+    header::before {
+        min-height: 115vh;
+    }
 }
 /* header end  */
 
@@ -610,7 +632,44 @@ html{
     z-index: -1;
 }
 
+@media (max-width: 992px){
+    .about_text{
+        padding-top: 100px;
+    }
+}
 
+.about_img{
+    height: 350px;
+    width: 480px;
+}
+
+@media (max-width: 992px){
+    .about_img{
+        height: 370px;
+        width: 560px;
+    }
+}
+
+@media (max-width: 768px){
+    .about_img{
+        height: 320px;
+        width: 390px;
+    }
+}
+
+@media (max-width: 576px){
+    .about_img{
+        height: 250px;
+        width: 280px;
+    }
+}
+
+@media (max-width: 400px){
+    .about_img{
+        height: 180px;
+        width: 220px;
+    }
+}
 /* about section end  */
 
 /* post section start  */
@@ -874,6 +933,12 @@ html{
 /* instagram slide end  */
 
 /* footer start  */
+@media (max-width: 340px){
+    .site-footer{
+        width: 330px;
+    }
+}
+
 .footer_style a{
     text-decoration: none;
     color: gray;
